@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+}
+
+button {
+    width: 100px;
+    font-size: 15px;
+    background: #111727;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.ct-child {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ct-child a {
+    display: flex;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.ct-child a:hover {
+    color: blue;
+}
+
+.ct-child a image:hover {
+    color: blue;
+}
